@@ -16,10 +16,10 @@ some more keywords
 ```
 The following strict search term is generated, and stored into the clipboard to be pasted into a Google Search bar:
 ```
-intext:"keyword" AND "more keywords" AND "some more keywords" AND "actually, here is an entire sentence to strict-match"
+intext:"keyword" AND "more keywords" AND "some more keywords"
 ```
 
-The basic Dorking operators "inurl:" and :ext:" can also be used with DorkNinja flawlessly:
+Additional basic Dorking operators "inurl:" and :ext:" can also be used with DorkNinja flawlessly:
 ```
 keyword
 ext:txt
@@ -28,7 +28,7 @@ inurl:.com/files/
 ```
 The following output would be generated, and stored into the clipboard to be pasted into a Google Search bar:
 ```
-intext:"keyword" AND "more keywords" AND "actually, here is an entire sentence to strict-match" ext:txt inurl:.com/files/
+intext:"keyword" AND "more keywords" ext:txt inurl:.com/files/
 ```
 
 This project was created in Python, to save time with searches with plagiarism checks (and not at all to look up answers to exam / test questions whatsoever).
