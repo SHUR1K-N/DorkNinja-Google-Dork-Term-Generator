@@ -18,15 +18,15 @@ The following strict search term is generated, and stored into the clipboard to 
 ```
 intext:"keyword" AND "more keywords" AND "some more keywords" AND "actually, here is an entire sentence to strict-match"
 ```
-The basic Dorking operators "inurl:" and :ext:" can also be used with DorkNinja, :
+
+The basic Dorking operators "inurl:" and :ext:" can also be used with DorkNinja flawlessly:
 ```
 keyword
 ext:txt
 more keywords
 inurl:.com/files/
-
 ```
-The following output is generated, and stored into the clipboard to be pasted into a Google Search bar:
+The following output would be generated, and stored into the clipboard to be pasted into a Google Search bar:
 ```
 intext:"keyword" AND "more keywords" AND "actually, here is an entire sentence to strict-match" ext:txt inurl:.com/files/
 ```
