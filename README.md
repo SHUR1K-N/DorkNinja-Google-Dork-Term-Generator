@@ -8,27 +8,17 @@ A tool that assists in Google Dorks by simplifying your task enough to just addi
 <p>Example Execution</p>
 </div>
 
-Feeding the following lines into DorkNinja:
+Feeding the following lines into DorkNinja (note that basic Dorking operators "ext:" and "inurl:" are also supported:
 ```
 keyword
 more keywords
+ext:txt
+inurl:.com/files/
 some more keywords
 ```
 The following strict search term is generated, and stored into the clipboard to readily be pasted into a Google Search bar:
 ```
-intext:"keyword" AND "more keywords" AND "some more keywords"
-```
-
-Additional basic Dorking operators "inurl:" and :ext:" can also be used with DorkNinja flawlessly:
-```
-keyword
-ext:txt
-more keywords
-inurl:.com/files/
-```
-The following output would be generated, and stored into the clipboard to readily be pasted into a Google Search bar:
-```
-intext:"keyword" AND "more keywords" ext:txt inurl:.com/files/
+intext:"keyword" AND "more keywords" AND "some more keywords" ext:txt inurl:.com/files/
 ```
 
 This project was created in Python, to save time with personal plagiarism checks (and not at all to look up answers to exam / test questions whatsoever).
