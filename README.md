@@ -31,7 +31,7 @@ The following output would be generated, and stored into the clipboard to readil
 intext:"keyword" AND "more keywords" ext:txt inurl:.com/files/
 ```
 
-This project was created in Python, to save time with searches with plagiarism checks (and not at all to look up answers to exam / test questions whatsoever).
+This project was created in Python, to save time with personal plagiarism checks (and not at all to look up answers to exam / test questions whatsoever).
 
 ## Applications
 - Testing a suspected written piece for plagiarism by feeding keywords into DorkNinja
