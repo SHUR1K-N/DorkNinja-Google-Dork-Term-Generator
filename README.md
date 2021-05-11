@@ -1,7 +1,7 @@
 # DorkNinja: Google Dork Term Generator
 
 ## Description & Usage
-A tool that assists in Google Dorks by simplifying your task enough to just adding the keywords to be turned into a strict search term.
+A tool that assists in Google Dorks by simplifying your task enough to just adding keywords to be turned into a strict search term for more accurate and relevant search results.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/SHUR1K-N/DorkNinja-Google-Dork-Term-Generator/master/Images/Example.png" >
