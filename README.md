@@ -4,7 +4,7 @@
 A tool that assists in Google Dorks by simplifying your task enough to just adding the keywords to be turned into a strict search term.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/SHUR1K-N/ScrambleNinja-File-Scrambler/master/Images/Example.png" >
+<img src="https://raw.githubusercontent.com/SHUR1K-N/DorkNinja-Google-Dork-Term-Generator/master/Images/Example.png" >
 <p>Example Execution</p>
 </div>
 
