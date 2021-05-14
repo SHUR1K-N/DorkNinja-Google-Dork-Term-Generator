@@ -8,7 +8,7 @@ A tool that assists in Google Dorks by simplifying your task enough to just addi
 <p>Example Execution</p>
 </div>
 
-Feeding the following lines into DorkNinja (note that basic Dorking operators "ext:" and "inurl:" are also supported:
+Feeding the following lines into DorkNinja (note that basic Dorking operators "ext:" and "inurl:" are also supported):
 ```
 keyword
 more keywords
@@ -21,13 +21,13 @@ The following strict search term is generated, and stored into the clipboard to 
 intext:"keyword" AND "more keywords" AND "some more keywords" ext:txt inurl:.com/files/
 ```
 
-This project was created in Python, to save time with personal plagiarism checks (and not at all to look up answers to exam / test questions whatsoever).
+This project was created in Python, to save time with personal plagiarism checks (and not at all to look up answers to exam / test questions whatsoever, at all).
 
 ## Applications
 - Testing a suspected written piece for plagiarism by feeding keywords into DorkNinja
-- Searching for those exam / test answers of which questions are too long to have accurate search results, but *do* exist within an online source
-- Searching for those exam / test answers of which questions are cleverly rephrased to deliberately not match with an online source of answers
-- General "short hand" searches with keywords instead of sentences to significantly increase accuracy and relevance within search results
+- Using keywords to search for those exam / test answers of which questions are too lengthy to have accurate search results, but *do* exist within an online source
+- Using keywords to search for those exam / test answers of which questions are rephrased to deliberately not readily match with an online source of answers
+- Using keywords for general "short hand" searches instead of sentences to significantly increase accuracy and relevance within search results by efficiently filtering them
 
 ## Dependencies to PIP-Install
 - **pyperclip** (for automated copying into the clipboard)
